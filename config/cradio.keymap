@@ -40,16 +40,28 @@
         };
     };
 
+    macros {
+        delll: delll {
+            label = "EMACS_DEL";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp LCTRL &kp FSLH>
+                ;
+        };
+    };
+
+
     keymap {
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
-            &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
+            &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &ht BSPC ESC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S/ALT   │  D/CTRL  │  F/WIN   │  G       │   │  H       │  J/WIN   │  K/CTRL  │  L/ALT   │BCKSP/CTRL│
-            &ht LCTRL A HRML(S,         D,         F)     &kp G        &kp H      HRMR(J,        K,           L)  &ht LCTRL BSPC
+            &ht LCTRL A HRML(S,         D,         F)     &kp G        &K H      HRMR(J,        K,           L)    &kp P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ENTER    │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp ENTER
@@ -63,10 +75,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ 1        │  2       │  3       │  4       │  5       │   │ 6        │ 7        │ 8        │ 9        │   0      │
-            &kp N1    &kp N2     &kp N3     &kp N4     &kp N5          &kp N6     &kp N7     &kp N8     &kp N9      &kp N0
+            &kp N1    &kp N2     &kp N3     &kp N4     &kp N5          &kp N6     &kp N7     &kp N8     &kp UARW   &delll
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ DELETE   │ CapsLock │ PrintSc  │  INSERT  │          |   |          │ LEFT     │ DOWN     │ UP       │ RIGHT    │
-            &kp DEL   &kp CAPS   &kp PSCRN  &kp INS     &trans          &trans    &kp LARW   &kp DARW   &kp UARW   &kp RARW 
+        //│ DELETE   │ CapsLock │ PrintSc  │  INSERT  │          |   | 9        │ 0        │ DOWN     │ UP       │ RIGHT    │
+            &kp DEL   &kp CAPS   &kp PSCRN  &kp INS     &trans         &kp N9     &kp N0     &kp LARW   &kp DARW   &kp RARW
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │ HOME     │ PAGE DN  │ PAGE UP  │ END      │
             &trans    &trans     &trans     &trans      &trans           &trans   &kp HOME   &kp PG_DN  &kp PG_UP  &kp END
