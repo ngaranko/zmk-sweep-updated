@@ -60,7 +60,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │BCKSP/ESC │
-            &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O     &ht EXC BSPC
+            &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O     &ht ESC BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S/ALT   │  D/CTRL  │  F/WIN   │  G       │   │  H       │  J/WIN   │  K/CTRL  │  L/ALT   │ P        │
             &ht LCTRL A HRML(S,         D,         F)     &kp G        &kp H      HRMR(J,        K,           L)    &kp P
