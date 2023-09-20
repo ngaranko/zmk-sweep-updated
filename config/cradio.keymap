@@ -46,7 +46,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &kp LCTRL &kp FSLH>
+                = <&macro_press &kp LCTRL>
+                , <&macro_tap &kp />
+                , <&macro_release &kp LCTRL>
                 ;
         };
     };
@@ -58,7 +60,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │BCKSP/ESC │
-            &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O     &ht BSPC ESC
+            &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O     &ht EXC BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S/ALT   │  D/CTRL  │  F/WIN   │  G       │   │  H       │  J/WIN   │  K/CTRL  │  L/ALT   │ P        │
             &ht LCTRL A HRML(S,         D,         F)     &kp G        &kp H      HRMR(J,        K,           L)    &kp P
