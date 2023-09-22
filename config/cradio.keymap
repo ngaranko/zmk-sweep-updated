@@ -57,7 +57,7 @@
         compatible = "zmk,combos";
         combo_tab {
             timeout-ms = <50>;
-            key-positions = <LSHIFT Q>;
+            key-positions = <0 1>;
             bindings = <&kp TAB>;
         };
     };
