@@ -69,13 +69,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │BCKSP/ESC │
-            &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &ht ESC BSPC
+            &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J      &kp L      &kp U      &kp Y    &ht ESC BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S/ALT   │  D/CTRL  │  F/WIN   │  G       │   │  H       │  J/WIN   │  K/CTRL  │  L/ALT   │ P        │
-            HRML(A,     S,         D)         &kp F      &kp G          &kp H      &kp J     HRMR(K,     L,        P)
+            HRML(A,     R,         S)         &kp T      &kp G          &kp M      &kp N     HRMR(E,     I,        O)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ENTER    │
-            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N     &ht RGUI M  &kp COMMA  &kp DOT    &kp ENTER
+            &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K     &ht RGUI H  &kp COMMA  &kp DOT    &kp ENTER
         //╰──────────┴──────────┴─┼─────────────┼────────────────┤   ├──────────┴─────┼────┴────────┼─┴──────────┴──────────╯
                                    &lt LEF TAB   &ht LSHIFT SPACE      &kp LCTRL       &lt RIG SPACE
         //                        ╰─────────────┴────────────────╯   ╰────────────────┴─────────────╯
