@@ -78,7 +78,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ENTER    │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N     &ht RGUI M  &kp COMMA  &kp DOT    &kp ENTER
         //╰──────────┴──────────┴─┼─────────────┼────────────────┤   ├──────────┴─────┼────┴────────┼─┴──────────┴──────────╯
-                                   &kp LEF       &ht LSHIFT SPACE      &kp LCTRL       &lt RIG SPACE
+                                   &mo LEF       &ht LSHIFT SPACE      &kp LCTRL       &lt RIG SPACE
         //                        ╰─────────────┴────────────────╯   ╰────────────────┴─────────────╯
             >;
         };
