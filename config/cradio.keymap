@@ -69,11 +69,11 @@
         default_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
-             &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
+        //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │ ESC/BCSP │
+             &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O    &ht ESC BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  A       │  S/ALT   │  D/CTRL  │  F/WIN   │  G       │   │  H       │  J/WIN   │  K/CTRL  │  L/ALT   │ BSPC|ESC │
-          &ht LCTRL A   &kp S      &kp D      &kp F      &kp G          &kp H      &kp J     HRMR(K,     L)      &ht ESC BSPC
+        //│  A       │  S/ALT   │  D/CTRL  │  F/WIN   │  G       │   │  H       │  J/WIN   │  K/CTRL  │  L/ALT   │  P       │
+          &ht LCTRL A   &kp S      &kp D      &kp F      &kp G          &kp H      &kp J     HRMR(K,     L)         &kp P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ENTER    │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N     &ht RGUI M  &kp COMMA  &kp DOT    &kp ENTER
