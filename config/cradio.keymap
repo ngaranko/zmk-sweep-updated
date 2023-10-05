@@ -72,12 +72,12 @@
             &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J      &kp L      &kp U      &kp Y    &ht ESC BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S/ALT   │  D/CTRL  │  F/WIN   │  G       │   │  H       │  J/WIN   │  K/CTRL  │  L/ALT   │ P        │
-            HRML(A,     R,         S)         &kp T      &kp G          &kp M      &kp N     HRMR(E,     I,        O)
+             A          R          S          &kp T      &kp G          &kp M      &kp N     HRMR(E,     I,        O)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ENTER    │
             &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K     &ht RGUI H  &kp COMMA  &kp DOT    &kp ENTER
         //╰──────────┴──────────┴─┼─────────────┼────────────────┤   ├──────────┴─────┼────┴────────┼─┴──────────┴──────────╯
-                                   &lt LEF TAB   &ht LSHIFT SPACE      &kp LCTRL       &lt RIG SPACE
+                                   &kp LEF       &ht LSHIFT SPACE      &kp LCTRL       &lt RIG SPACE
         //                        ╰─────────────┴────────────────╯   ╰────────────────┴─────────────╯
             >;
         };
@@ -89,7 +89,7 @@
             &kp N1    &kp N2     &kp N3     &kp N4     &kp N5          &kp N6     &kp N7     &kp N8     &kp UARW   &delll
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          |   | 9        │ 0        │ DOWN     │ UP       │ PAGE UP  │
-            &trans     &trans     &trans      &trans    &trans         &kp N9     &kp N0     &kp LARW   &kp DARW   &kp PG_UP
+            &ht TAB A  &trans     &trans      &trans    &trans         &kp N9     &kp N0     &kp LARW   &kp DARW   &kp PG_UP
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │ '        │   │ /        │ [        │ ]        │ =        │ PAGE DWN │
             &trans    &trans     &trans     &trans      &kp SQT        &kp FSLH   &kp LBKT  &kp RBKT    &kp EQUAL  &kp PG_DN
@@ -103,7 +103,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  ESC     │  @       │  #       │  $       │  %       │   │  ^       │  &       │  *       │  `       │  ~       │
-            &kp ESC    &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp GRAVE   &kp TILDE
+            &kp TAB    &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp GRAVE   &kp TILDE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  "       │  [       │  {       │  (       │          │   │   /      │  -       │  =       │     :    │  ;       │
             &kp DQT  &kp LBKT   &kp LBRC   &kp LPAR   &trans         &kp FSLH   &kp MINUS  &kp EQUAL  &kp COLON   &kp SEMI
