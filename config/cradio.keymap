@@ -70,13 +70,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
-            &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J      &kp L      &kp U      &kp Y      &kp P
+             &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S/ALT   │  D/CTRL  │  F/WIN   │  G       │   │  H       │  J/WIN   │  K/CTRL  │  L/ALT   │ BSPC|ESC │
-          &ht LCTRL A   &kp R      &kp S      &kp T      &kp G          &kp M      &kp N     HRMR(E,     I)      &ht ESC BSPC
+          &ht LCTRL A   &kp S      &kp D      &kp F      &kp G          &kp H      &kp J     HRMR(K,     L)      &ht ESC BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ENTER    │
-            &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K     &ht RGUI H  &kp COMMA  &kp DOT    &kp ENTER
+            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N     &ht RGUI M  &kp COMMA  &kp DOT    &kp ENTER
         //╰──────────┴──────────┴─┼─────────────┼────────────────┤   ├──────────┴─────┼────┴────────┼─┴──────────┴──────────╯
                                    &kp LEF       &ht LSHIFT SPACE      &kp LCTRL       &lt RIG SPACE
         //                        ╰─────────────┴────────────────╯   ╰────────────────┴─────────────╯
