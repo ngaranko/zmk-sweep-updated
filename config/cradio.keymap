@@ -73,7 +73,7 @@
              &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O    &ht ESC BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S/ALT   │  D/CTRL  │  F/WIN   │  G       │   │  H       │  J/WIN   │  K/CTRL  │  L/ALT   │  P       │
-          &ht LCTRL A   &kp S      &kp D      &kp F      &kp G          &kp H      &kp J     HRMR(K,     L)         &kp P
+          &ht LCTRL A   &kp S    &ht RGUI D   &kp F      &kp G          &kp H      &kp J     HRMR(K,     L)         &kp P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ENTER    │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N     &ht RGUI M  &kp COMMA  &kp DOT    &kp ENTER
@@ -89,11 +89,11 @@
         //│ 1        │  2       │  3       │  4       │  5       │   │ 6        │ 7        │ 8        │ 9        │   C^/    │
             &kp N1    &kp N2     &kp N3     &kp N4     &kp N5          &kp N6     &kp N7     &kp N8     &kp UARW   &delll
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │          │          |   | 9        │ 0        │ DOWN     │ UP       │ PAGE UP  │
-            &ht TAB A  &trans     &trans      &trans    &trans         &kp N9     &kp N0     &kp LARW   &kp DARW   &kp PG_UP
+        //│          │          │          │          │          |   | 9        │ 0        │ DOWN     │ UP       │ RIGHT    │
+            &ht TAB A  &trans     &trans      &trans    &trans         &kp N9     &kp N0     &kp LARW   &kp DARW   &kp RARW
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │          │ '        │   │ /        │ [        │ ]        │ =        │ PAGE DWN │
-            &trans    &trans     &trans     &trans      &kp SQT        &kp FSLH   &kp LBKT  &kp RBKT    &kp EQUAL  &kp PG_DN
+        //│          │          │          │          │ '        │   │ /        │ [        │ ]        │ PAGE UP  │ PAGE DWN │
+            &trans    &trans     &trans     &trans      &kp SQT        &kp FSLH   &kp LBKT  &kp RBKT    &kp PG_UP  &kp PG_DN
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
