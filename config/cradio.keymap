@@ -10,7 +10,7 @@
 #define HRML(k2,k3,k4) &ht LCTRL k2  &ht LALT k3  &ht LGUI k4
 //#define HRMR(k1,k2,k3) &ht RGUI k1  &ht RALT k2  &ht RCTRL k3
 #define HRMR(k1,k2) &ht RGUI k1  &ht RALT k2
-// Additional home row mods
+ // Additional home row mods
 #define WHRML(k2,k3,k4) &ht LALT k2  &ht LGUI k3  &ht LCTRL k4
 #define WHRMR(k1,k2,k3) &ht RCTRL k1  &ht RGUI k2  &ht RALT k3
 
@@ -73,7 +73,7 @@
              &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O    &ht ESC BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S/ALT   │  D/CTRL  │  F/WIN   │  G       │   │  H       │  J/WIN   │  K/CTRL  │  L/ALT   │  P       │
-          &ht LCTRL A   &kp S    &ht RGUI D   &kp F      &kp G          &kp H      &kp J     HRMR(K,     L)         &kp P
+          &ht LCTRL A &ht LALT S &ht RGUI D   &kp F      &kp G          &kp H      &kp J     HRMR(K,     L)         &kp P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ENTER    │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N     &ht RGUI M  &kp COMMA  &kp DOT    &kp ENTER
